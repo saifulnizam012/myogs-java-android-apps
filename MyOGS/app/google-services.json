@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "539574065617",
+    "project_id": "myogs-28b09",
+    "storage_bucket": "myogs-28b09.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:539574065617:android:4904a4b84f52855017a8f0",
+        "android_client_info": {
+          "package_name": "com.example.myogs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "539574065617-mo00p25d9b81eusbt8878qff71704dpd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC5EYjVP-e7NoG1F88dTNwK00dVneU1Sng"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "539574065617-mo00p25d9b81eusbt8878qff71704dpd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

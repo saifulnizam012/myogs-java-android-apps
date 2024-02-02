@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/btn_website"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cardview_spec"
+    android:fillViewport="true"
+    tools:context=".News_Detail_Activity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FCEBFF">
+
+        <ImageView
+            android:id="@+id/tv_newsImage"
+            android:layout_width="394dp"
+            android:layout_height="224dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.0"
+            app:srcCompat="@drawable/news_bestlaptop" />
+
+        <TextView
+            android:id="@+id/tv_newsTopic"
+            android:layout_width="336dp"
+            android:layout_height="123dp"
+            android:layout_marginStart="167dp"
+            android:layout_marginEnd="168dp"
+            android:text="Best laptops at CES 2023: 3D OLED tech, new gaming laptops, and everything else"
+            android:textAlignment="viewStart"
+            android:textColor="#472B4C"
+            android:textSize="24dp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_newsImage"
+            app:layout_constraintVertical_bias="0.027" />
+
+        <TextView
+            android:id="@+id/tv_newsDateDetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="⏲ 5 January 2023"
+            android:textColor="#472B4C"
+            app:layout_constraintBottom_toBottomOf="@+id/tv_newsTopic"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.923"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/tv_newsTopic"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:id="@+id/tv_newsContent"
+            android:layout_width="328dp"
+            android:layout_height="wrap_content"
+            android:text="\n\t\t\tAsus isn't sitting around to let Acer hog the limelight. There's a new 18-inch gaming laptop here too, as part of the new range of Asus ROG Strix SCAR laptops, some of which will use Intel's mighty new Core i9-13980HX mobile processor, now the world's most powerful laptop CPU.\n\n\t\t\tIt's not just new Strix products either; the ever-successful ROG Zephyrus line is getting new entries, starting with slick new redesigns for the Zephyrus M16 and G16 - both already excellent gaming laptops, now updated with more powerful hardware and a new look. We're also getting new models of Asus's dinky gaming tablet, the ROG Flow X13 and Z13.\n\n\t\t\tIn total, there were thirteen new ROG laptops from Asus announced, with a lot of focus being placed on the manufacturer's Nebula display technology. Nebula is essentially a minimum hardware spec for Asus laptop screens, mandating 'a strict criteria of fast motion, bright backlights, and vivid colors.' Having seen these panels in the past, it's good to see Asus is sticking to its guns and aiming to deliver top-notch laptop displays.\n\n"
+            android:textColor="#472B4C"
+            android:textSize="16dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.446"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_newsTopic"
+            app:layout_constraintVertical_bias="0.0" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/abril_fatface</item>
+        <item>@font/allerta_stencil</item>
+        <item>@font/amaranth</item>
+        <item>@font/assistant_extralight</item>
+        <item>@font/averia_libre_light</item>
+        <item>@font/changa_extralight</item>
+        <item>@font/dekko</item>
+    </array>
+</resources>

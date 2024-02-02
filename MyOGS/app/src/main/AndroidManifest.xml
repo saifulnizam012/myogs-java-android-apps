@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyOGS"
+        tools:targetApi="31">
+        <activity
+            android:name=".Setting_Activity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".EditProfile_Activity"
+            android:exported="false"
+            android:parentActivityName=".Profile_Page_Activity" />
+        <activity
+            android:name=".Cart_Activity"
+            android:exported="false"
+            android:parentActivityName=".Order_Activity" />
+        <activity
+            android:name=".News_Plus"
+            android:exported="false"
+            android:parentActivityName=".News_activity" />
+        <activity
+            android:name=".Order_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".ShippingDetails_Activity"
+            android:exported="false"
+            android:parentActivityName=".BuyDetail_Activity" />
+        <activity
+            android:name=".BuyDetail_Activity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Asus_vivobook"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Asus_tuf"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Asus_rog"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Laptop_Detail_Activity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".News_Detail_Activity"
+            android:exported="false"
+            android:parentActivityName=".News_activity" />
+        <activity
+            android:name=".News_activity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Profile_Page_Activity"
+            android:exported="false"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".Login"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+                />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Register"
+            android:exported="true"></activity>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.MyOGS.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
